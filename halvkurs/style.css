@@ -56,7 +56,7 @@ img{
 
 }
 .text{
-    border:1px solid rgb(14, 0, 0);
+    border:1px solid #ddd;
     padding:5%;
     padding-block: 10%;
     text-align: center;
@@ -68,11 +68,21 @@ img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
      
-        padding-inline:15%;
+        padding-inline:10%;
         gap: 50px;
            row-gap: 100px;
     }
 
+    .menuButton{
+        display:none;
+    }
 
 
+
+}
+
+.menuButton{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
 }
