@@ -75,11 +75,18 @@ img{
 
 }
 
+.card_Acmilan{
+    display:grid;
+    grid-template-rows: 1fr auto;
+
+
+}
+
 @media(min-width: 700px){
 
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr;
      
         padding-inline:10%;
         gap: 50px;
@@ -88,6 +95,10 @@ img{
 
     .menuButton{
         display:none;
+    }
+    nav{
+        display: flex;
+        gap:20px;
     }
 
 
