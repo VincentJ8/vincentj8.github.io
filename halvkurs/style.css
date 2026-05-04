@@ -13,6 +13,17 @@ padding: 3%;
 
 main{
     min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content {
+    flex: 1;
+}
+
+.video {
+    flex: 0 0 auto;
 }
 
 nav{
@@ -56,17 +67,66 @@ img{
 
 }
 .text{
-    border:1px solid #ddd;
     padding:5%;
     padding-block: 10%;
     text-align: center;
 }
-.card_barcelona{
+
+.text h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0 0;
+}
+.price strong {
+    color: #111;
+    font-weight: 700;
+}
+.button {
+    display: inline-block;
+    margin: 8px 6px 0;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: #333;
+}
+
+.button.buy {
+    background: #d32f2f;
+}
+
+.button.buy:hover {
+    background: #b71c1c;
+}
+
+.card-barcelona{
     
     display:grid;
     grid-template-rows: 1fr auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
 
 
+}
+
+.video video {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .card_Manchester{
