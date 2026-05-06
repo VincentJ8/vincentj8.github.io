@@ -108,6 +108,14 @@ img{
     background: #d32f2f;
 }
 
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
 .button.buy:hover {
     background: #b71c1c;
 }
