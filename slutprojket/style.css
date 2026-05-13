@@ -192,3 +192,17 @@ img{
 .hidden{
     display: none;
 }
+
+h1 {
+    text-align: center;
+}
+
+.menuButton {
+    position: relative;
+    bottom: 10px;
+}
+
+#search {
+    position: relative;
+    bottom: 20px;
+}

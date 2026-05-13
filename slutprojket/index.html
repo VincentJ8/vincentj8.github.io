@@ -9,7 +9,8 @@
 <body>
 
     <header>
-        <button class="menuButton" onclick="ToggleEvent()">&equiv;</button>
+        <h1>Classic Football Jerseys</h1>
+        <button class="menuButton" onclick="togglemenu()">&equiv;</button>
         
         
         
@@ -17,7 +18,7 @@
         <nav>
             <a href="./">HOME</a>
             <a href="#contact">CONTACT</a>
-            <a href="About">ABOUT</a>
+            <a href="about.html">ABOUT</a>
 
 
 
@@ -158,6 +159,13 @@
 
 
     </footer>
+    
+    <script>
+        function togglemenu(){
+            document.querySelector("nav").classList.toggle("hidden")
+
+        }
+    </script>
 
    
      
